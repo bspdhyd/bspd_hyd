@@ -7009,3 +7009,11 @@ Stack trace:
 [03-Apr-2025 15:21:46 UTC] PHP Warning:  Undefined array key "name" in /home/urfwabs93fwz/public_html/SelfService/MemberView/ssEventRegn.php on line 28
 [03-Apr-2025 15:21:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php:45) in /home/urfwabs93fwz/public_html/SelfService/MemberView/ssEventRegn.php on line 36
 [03-Apr-2025 15:21:46 UTC] PHP Warning:  Undefined array key "id" in /home/urfwabs93fwz/public_html/SelfService/MemberView/ssEventRegn.php on line 45
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "MEMBER_TYPE" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 24
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "MEMBER_TYPE" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 41
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "MEMBER_TYPE" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 57
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "MEMBER_TYPE" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 73
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "First_Name" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 89
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "Last_Name" in /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php on line 89
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Undefined array key "name" in /home/urfwabs93fwz/public_html/SelfService/MemberView/ssMemberSearch.php on line 35
+[03-Apr-2025 16:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/urfwabs93fwz/public_html/SelfService/CommonNavigationBar.php:1) in /home/urfwabs93fwz/public_html/SelfService/MemberView/ssMemberSearch.php on line 41
