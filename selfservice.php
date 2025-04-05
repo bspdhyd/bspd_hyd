@@ -26,7 +26,6 @@ function viewMemberLoginInfo($link){
 <?php include 'CommonNavigationBar.php' ?>
 <br><br>
 
-<!-- 1966 - Modali Sarada, 1286 - Kalaga Kamesh, 1405 - MSN, 1960 - Ushasree, 8719 KuchiMadhavi, 1955 Bhramaramba -->
 <?php if (( $_SESSION["id"] == 1636) or ( $_SESSION["id"] == 1116) or ( $_SESSION["id"] == 1177) or ( $_SESSION["id"] == 1503) or ( $_SESSION["id"] == 1960))  { ?>
   <b>Administrative tasks</b><br>
   <input type="button" value="CrPayee-NonMember" class="eventsbutton" id="btnNewPayee"  onClick="Javascript:window.location.href = 'http://www.bspd.in/SelfService/AdminTasks/ssNewPayee.php';" />
@@ -35,7 +34,7 @@ function viewMemberLoginInfo($link){
   <input type="button" value="JPRegn" class="eventsbutton" id="btnJP" onClick="Javascript:window.location.href = 'http://www.bspd.in/SelfService/AdminTasks/jpRegistration.php';" />
 
 <?php } ?>
-<!-- Specific for 2 people - 1123 Daggubati 1402 MLN -->
+
 <?php if (( $_SESSION["id"] == 1116) or ( $_SESSION["id"] == 1636) or
           ( $_SESSION["id"] == 1123) or ( $_SESSION["id"] == 1402)) { ?>
    <input type="button" value="VerifyContribution" class="eventsbutton" id="btnVerCtr" onClick="Javascript:window.location.href = 'http://www.bspd.in/SelfService/AdminTasks/ssVerifyContribution.php';" />  
@@ -43,7 +42,7 @@ function viewMemberLoginInfo($link){
 <!-- End Specific screens for just 2 people  -->
   <br><br>
 
-<!-- start Specific screens for prasad for testing images  -->
+
 <?php if (( $_SESSION["id"] == 1636) or ( $_SESSION["id"] == 1503) or ( $_SESSION["id"] == 1116) or ( $_SESSION["id"] == 1966) or ( $_SESSION["id"] == 1933) or ( $_SESSION["id"] == 1969) ) { ?>
   <b>Views for Prasad</b><br>
   <input type="button" value="SIBCDat" class="eventsbutton" id="SIBCDat" onClick="Javascript:window.location.href = 'http://www.bspd.in/SelfService/AdminTasks/ssSIBCollectiondata.php';" />  
